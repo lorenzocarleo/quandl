@@ -4,7 +4,7 @@ import numpy as np
 import quandl as quandl
 
 # %%
-quandl.ApiConfig.api_key = "b9K1Pc8yb8neKpUCwvcw"
+quandl.ApiConfig.api_key = "xxxxxx"
 
 mydata = quandl.get('FRED/GDP')
 
