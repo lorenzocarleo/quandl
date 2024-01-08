@@ -1,7 +1,7 @@
 import requests
 import time
 
-quandl_api_key = "b9K1Pc8yb8neKpUCwvcw"
+quandl_api_key = "xxxxxxx"
 
 def get_quandl_commodity_codes(page_limit=100):
     base_url = "https://www.quandl.com/api/v3/datasets.json?api_key=" + quandl_api_key + "&database_code=COM&per_page=100&page="
